@@ -16,12 +16,12 @@
                 ],
                 [
                     "BasicCAT工具集中的<g1>Aligner<\/g1>可以将ASS格式的双语字幕文件转换为TMX格式的翻译记忆文件。",
-                    "The Aligner in the BasicCAT toolset can convert bilingual subtitle files in ASS format to translation memory files in TMX format.",
+                    "The <g1>Aligner<\/g1> in the BasicCAT toolset can convert bilingual subtitle files in ASS format to translation memory files in TMX format.",
                     "BasicCAT工具集中的<g1>Aligner<\/g1>可以将ASS格式的双语字幕文件转换为TMX格式的翻译记忆文件。",
                     "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
                     {
                         "creator": "xulihang",
-                        "createdTime": 1686975818518,
+                        "createdTime": 1686976438656,
                         "id": "tu2"
                     }
                 ],
