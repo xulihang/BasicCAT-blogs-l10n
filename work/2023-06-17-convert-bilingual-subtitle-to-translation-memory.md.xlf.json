@@ -1,0 +1,358 @@
+{
+    "filename": "2023-06-17-convert-bilingual-subtitle-to-translation-memory.md.xlf",
+    "files": [
+        {
+            "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md": [
+                [
+                    "很多字幕组做的字幕都是双语版的，我们可以从字幕文件提取原文和译文做成翻译记忆文件，便于导入计算机辅助翻译软件或者当作语料库，用于检索。",
+                    "Many subtitles are bilingual. We can extract the source text and the target text from the subtitle files into a translation memory file. A translation memory file can be imported into a computer-aided translation software or be used as a corpus for concordance.",
+                    "很多字幕组做的字幕都是双语版的，我们可以从字幕文件提取原文和译文做成翻译记忆文件，便于导入计算机辅助翻译软件或者当作语料库，用于检索。",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": 1686975742068,
+                        "id": "tu1"
+                    }
+                ],
+                [
+                    "BasicCAT工具集中的<g1>Aligner<\/g1>可以将ASS格式的双语字幕文件转换为TMX格式的翻译记忆文件。",
+                    "The Aligner in the BasicCAT toolset can convert bilingual subtitle files in ASS format to translation memory files in TMX format.",
+                    "BasicCAT工具集中的<g1>Aligner<\/g1>可以将ASS格式的双语字幕文件转换为TMX格式的翻译记忆文件。",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": 1686975818518,
+                        "id": "tu2"
+                    }
+                ],
+                [
+                    "比如我们下载了人人影视的《老友记》字幕，它的字幕文件按季存放在十个文件夹中，文件名记录了第几集：",
+                    "For example, here is a list of subtitle files of Friends we downloaded from the Internet. The files are stored by seasons in ten folders with the episode info in the file names:",
+                    "比如我们下载了人人影视的《老友记》字幕，它的字幕文件按季存放在十个文件夹中，文件名记录了第几集：",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": 1686976027741,
+                        "id": "tu3"
+                    }
+                ],
+                [
+                    "─Season 01",
+                    "",
+                    "─Season 01\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu4"
+                    }
+                ],
+                [
+                    "│     Friends.S01E01.chs&eng.sohu.ass",
+                    "",
+                    "│     Friends.S01E01.chs&eng.sohu.ass\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu4"
+                    }
+                ],
+                [
+                    "│     Friends.S01E02.chs&eng.sohu.ass",
+                    "",
+                    "│     Friends.S01E02.chs&eng.sohu.ass\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu4"
+                    }
+                ],
+                [
+                    "│     Friends.S01E03.chs&eng.sohu.ass",
+                    "",
+                    "│     Friends.S01E03.chs&eng.sohu.ass\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu4"
+                    }
+                ],
+                [
+                    "│     ...",
+                    "",
+                    "│     ...\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu4"
+                    }
+                ],
+                [
+                    "│",
+                    "",
+                    "│\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu4"
+                    }
+                ],
+                [
+                    "├─Season 02",
+                    "",
+                    "├─Season 02\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu4"
+                    }
+                ],
+                [
+                    "│     Friends.S02E01.chs&eng.sohu.ass",
+                    "",
+                    "│     Friends.S02E01.chs&eng.sohu.ass\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu4"
+                    }
+                ],
+                [
+                    "│     Friends.S02E02.chs&eng.sohu.ass",
+                    "",
+                    "│     Friends.S02E02.chs&eng.sohu.ass\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu4"
+                    }
+                ],
+                [
+                    "│     Friends.S02E03.chs&eng.sohu.ass",
+                    "",
+                    "│     Friends.S02E03.chs&eng.sohu.ass\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu4"
+                    }
+                ],
+                [
+                    "│",
+                    "",
+                    "│\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu4"
+                    }
+                ],
+                [
+                    "...",
+                    "",
+                    "...\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu4"
+                    }
+                ],
+                [
+                    "ASS字幕文件中一条时间轴的内容如下：",
+                    "The contents of a timeline in the ASS subtitle file are as follows:",
+                    "ASS字幕文件中一条时间轴的内容如下：",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": 1686976032519,
+                        "id": "tu5"
+                    }
+                ],
+                [
+                    "Dialogue:",
+                    "",
+                    "Dialogue:",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu6"
+                    }
+                ],
+                [
+                    "0,0:00:51.17,0:00:53.04,*Default,NTP,0000,0000,0000,,他不过是我的同事\\N{\\fn微软雅黑}{\\fs14}{\\b0}{\\c&HFFFFFF&&}{\\3c&000000&}{\\4c&H000000&}He's just some guy I work with!",
+                    "",
+                    " 0,0:00:51.17,0:00:53.04,*Default,NTP,0000,0000,0000,,他不过是我的同事\\N{\\fn微软雅黑}{\\fs14}{\\b0}{\\c&HFFFFFF&&}{\\3c&000000&}{\\4c&H000000&}He's just some guy I work with!\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu6"
+                    }
+                ],
+                [
+                    "我们可以从中提取原文和译文，把文件名和时间轴作为备注，保存为如下的翻译记忆条目：",
+                    "We can extract the source text and target text from it, make the file name and timeline as notes and save as the following translation memory entry:",
+                    "我们可以从中提取原文和译文，把文件名和时间轴作为备注，保存为如下的翻译记忆条目：",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": 1686976086790,
+                        "id": "tu7"
+                    }
+                ],
+                [
+                    "Friends.S01E01.chs&amp;eng.sohu.ass",
+                    "",
+                    "<tu>\r\n    <note>Friends.S01E01.chs&amp;eng.sohu.ass\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu8"
+                    }
+                ],
+                [
+                    "0:00:51.17,0:00:53.04",
+                    "",
+                    "0:00:51.17,0:00:53.04<\/note>\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu8"
+                    }
+                ],
+                [
+                    "He&apos;s just some guy I work with!",
+                    "",
+                    "    <tuv xml:lang=\"en\">\r\n        <seg>He&apos;s just some guy I work with!<\/seg>\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu8"
+                    }
+                ],
+                [
+                    "他不过是我的同事",
+                    "",
+                    "    <\/tuv>\r\n    <tuv xml:lang=\"zh\">\r\n        <seg>他不过是我的同事<\/seg>\r\n    <\/tuv>\r\n<\/tu>\r\n",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu8"
+                    }
+                ],
+                [
+                    "在Aligner中的具体操作方法：",
+                    "Detailed steps in Aligner:",
+                    "在Aligner中的具体操作方法：",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": 1686976130693,
+                        "id": "tu9"
+                    }
+                ],
+                [
+                    "新建一个英到中的对齐项目。",
+                    "Create a new English-to-Chinese alignment project.",
+                    "新建一个英到中的对齐项目。",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": 1686976132830,
+                        "id": "tu10"
+                    }
+                ],
+                [
+                    "<x1\/>New project<x2\/>",
+                    "",
+                    "<x1\/>New project<x2\/>",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu11"
+                    }
+                ],
+                [
+                    "<x1\/>Language pair<x2\/>",
+                    "",
+                    "<x1\/>Language pair<x2\/>",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu12"
+                    }
+                ],
+                [
+                    "读取双语ASS文件。",
+                    "Read the bilingual ASS files.",
+                    "读取双语ASS文件。",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": 1686976147522,
+                        "id": "tu13"
+                    }
+                ],
+                [
+                    "通过菜单调出ASS文件读取器，选择字幕文件所在目录，可以列出该目录和子目录下的所有ASS文件。",
+                    "Use the menu to call the ASS file picker and select the directory where the subtitle files are located. All ASS files in the directory and subdirectories can be listed.",
+                    "通过菜单调出ASS文件读取器，选择字幕文件所在目录，可以列出该目录和子目录下的所有ASS文件。",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": 1686976164112,
+                        "id": "tu13"
+                    }
+                ],
+                [
+                    "<x1\/>Read ass files<x2\/>",
+                    "",
+                    "<x1\/>Read ass files<x2\/>",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu14"
+                    }
+                ],
+                [
+                    "<x1\/>Ass picker<x2\/>",
+                    "",
+                    "<x1\/>Ass picker<x2\/>",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu15"
+                    }
+                ],
+                [
+                    "点击Okay后完成导入，回到对齐操作界面，可以对结果进行调整。",
+                    "Click Okay to complete the import and return to the alignment operation interface to adjust the results.",
+                    "点击Okay后完成导入，回到对齐操作界面，可以对结果进行调整。",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": 1686976177493,
+                        "id": "tu16"
+                    }
+                ],
+                [
+                    "<x1\/>Read ass files<x2\/>",
+                    "",
+                    "<x1\/>Read ass files<x2\/>",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu17"
+                    }
+                ],
+                [
+                    "导出结果。",
+                    "Export results.",
+                    "导出结果。",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": 1686976187334,
+                        "id": "tu18"
+                    }
+                ],
+                [
+                    "通过菜单，把结果导出为翻译记忆文件供后续使用。",
+                    "Through the menu, export the results as a translation memory file for further use.",
+                    "通过菜单，把结果导出为翻译记忆文件供后续使用。",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": 1686976196158,
+                        "id": "tu18"
+                    }
+                ],
+                [
+                    "<x1\/>Export<x2\/>",
+                    "",
+                    "<x1\/>Export<x2\/>",
+                    "\/D:\/git\/BasicCAT-website\/_zh\/2023-06-17-convert-bilingual-subtitle-to-translation-memory.md",
+                    {
+                        "id": "tu19"
+                    }
+                ]
+            ]
+        }
+    ],
+    "seg_enabled": false
+}
