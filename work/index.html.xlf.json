@@ -1,0 +1,109 @@
+{
+    "filename": "index.html.xlf",
+    "files": [
+        {
+            "\/E:\/git\/TMXSearch\/index.html": [
+                [
+                    "缈昏瘧璁板繂妫�绱㈠櫒 | BasicCAT",
+                    "",
+                    "缈昏瘧璁板繂妫�绱㈠櫒 | BasicCAT",
+                    "\/E:\/git\/TMXSearch\/index.html",
+                    {
+                        "id": "tu1"
+                    }
+                ],
+                [
+                    "缈昏瘧璁板繂鍦ㄧ嚎妫�绱㈠櫒",
+                    "",
+                    "缈昏瘧璁板繂鍦ㄧ嚎妫�绱㈠櫒",
+                    "\/E:\/git\/TMXSearch\/index.html",
+                    {
+                        "id": "tu2"
+                    }
+                ],
+                [
+                    "缈昏瘧璁板繂鏂囦欢锛�",
+                    "",
+                    "缈昏瘧璁板繂鏂囦欢锛�",
+                    "\/E:\/git\/TMXSearch\/index.html",
+                    {
+                        "id": "tu3"
+                    }
+                ],
+                [
+                    "娣诲姞鏂囦欢锛�",
+                    "",
+                    "娣诲姞鏂囦欢锛�",
+                    "\/E:\/git\/TMXSearch\/index.html",
+                    {
+                        "id": "tu4"
+                    }
+                ],
+                [
+                    "娣诲姞",
+                    "",
+                    "<g1>娣诲姞<\/g1>",
+                    "\/E:\/git\/TMXSearch\/index.html",
+                    {
+                        "id": "tu6"
+                    }
+                ],
+                [
+                    "缈昏瘧璁板繂鍦ㄧ嚎妫�绱㈠櫒",
+                    "",
+                    "缈昏瘧璁板繂鍦ㄧ嚎妫�绱㈠櫒",
+                    "\/E:\/git\/TMXSearch\/index.html",
+                    {
+                        "id": "tu7"
+                    }
+                ],
+                [
+                    "<x1\/> <bx1\/> 妫�绱㈣寖鍥达細 <bx2\/>",
+                    "",
+                    "<x1\/> <bx1\/> 妫�绱㈣寖鍥达細 <bx2\/>",
+                    "\/E:\/git\/TMXSearch\/index.html",
+                    {
+                        "id": "tu8"
+                    }
+                ],
+                [
+                    "鎵�鏈�",
+                    "",
+                    "鎵�鏈�",
+                    "\/E:\/git\/TMXSearch\/index.html",
+                    {
+                        "id": "tu9"
+                    }
+                ],
+                [
+                    "<ex1\/> <ex2\/> <g1>鎼滅储<\/g1><g2\/>",
+                    "",
+                    "<ex1\/> <ex2\/> <g1>鎼滅储<\/g1><g2\/>",
+                    "\/E:\/git\/TMXSearch\/index.html",
+                    {
+                        "id": "tu10"
+                    }
+                ],
+                [
+                    "<g1>杩斿洖<\/g1> <g2>鍒犻櫎璇ユ枃浠�<\/g2>",
+                    "",
+                    "<g1>杩斿洖<\/g1> <g2>鍒犻櫎璇ユ枃浠�<\/g2>",
+                    "\/E:\/git\/TMXSearch\/index.html",
+                    {
+                        "id": "tu11"
+                    }
+                ],
+                [
+                    "@xulihang 2023",
+                    "",
+                    "@xulihang 2023",
+                    "\/E:\/git\/TMXSearch\/index.html",
+                    {
+                        "id": "tu12"
+                    }
+                ]
+            ]
+        }
+    ],
+    "seg_enabled": false
+}
