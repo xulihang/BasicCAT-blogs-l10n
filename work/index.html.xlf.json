@@ -4,101 +4,125 @@
         {
             "\/E:\/git\/TMXSearch\/index.html": [
                 [
-                    "缈昏瘧璁板繂妫�绱㈠櫒 | BasicCAT",
-                    "",
-                    "缈昏瘧璁板繂妫�绱㈠櫒 | BasicCAT",
+                    "翻译记忆检索器 | BasicCAT",
+                    "Translation Memory Concordance | BasicCAT",
+                    "翻译记忆检索器 | BasicCAT",
                     "\/E:\/git\/TMXSearch\/index.html",
                     {
+                        "creator": "xulihang",
+                        "createdTime": 1687002778623,
                         "id": "tu1"
                     }
                 ],
                 [
-                    "缈昏瘧璁板繂鍦ㄧ嚎妫�绱㈠櫒",
-                    "",
-                    "缈昏瘧璁板繂鍦ㄧ嚎妫�绱㈠櫒",
+                    "翻译记忆在线检索器",
+                    "Translation Memory Concordance",
+                    "翻译记忆在线检索器",
                     "\/E:\/git\/TMXSearch\/index.html",
                     {
+                        "note": "",
+                        "creator": "xulihang",
+                        "createdTime": 1687002792017,
                         "id": "tu2"
                     }
                 ],
                 [
-                    "缈昏瘧璁板繂鏂囦欢锛�",
-                    "",
-                    "缈昏瘧璁板繂鏂囦欢锛�",
+                    "翻译记忆文件：",
+                    "TMX files:",
+                    "翻译记忆文件：",
                     "\/E:\/git\/TMXSearch\/index.html",
                     {
+                        "creator": "xulihang",
+                        "createdTime": 1687002809153,
                         "id": "tu3"
                     }
                 ],
                 [
-                    "娣诲姞鏂囦欢锛�",
-                    "",
-                    "娣诲姞鏂囦欢锛�",
+                    "添加文件：",
+                    "Add file:",
+                    "添加文件：",
                     "\/E:\/git\/TMXSearch\/index.html",
                     {
+                        "creator": "xulihang",
+                        "createdTime": 1687002814329,
                         "id": "tu4"
                     }
                 ],
                 [
-                    "娣诲姞",
-                    "",
-                    "<g1>娣诲姞<\/g1>",
+                    "添加",
+                    "Add",
+                    "<g1>添加<\/g1>",
                     "\/E:\/git\/TMXSearch\/index.html",
                     {
+                        "creator": "xulihang",
+                        "createdTime": 1687002815970,
                         "id": "tu6"
                     }
                 ],
                 [
-                    "缈昏瘧璁板繂鍦ㄧ嚎妫�绱㈠櫒",
-                    "",
-                    "缈昏瘧璁板繂鍦ㄧ嚎妫�绱㈠櫒",
+                    "翻译记忆在线检索器",
+                    "Translation Memory Concordance",
+                    "翻译记忆在线检索器",
                     "\/E:\/git\/TMXSearch\/index.html",
                     {
+                        "note": "",
+                        "creator": "xulihang",
+                        "createdTime": 1687002792017,
                         "id": "tu7"
                     }
                 ],
                 [
-                    "<x1\/> <bx1\/> 妫�绱㈣寖鍥达細 <bx2\/>",
-                    "",
-                    "<x1\/> <bx1\/> 妫�绱㈣寖鍥达細 <bx2\/>",
+                    "<x1\/> <bx1\/> 检索范围： <bx2\/>",
+                    "<x1\/> <bx1\/> Fields: <bx2\/>",
+                    "<x1\/> <bx1\/> 检索范围： <bx2\/>",
                     "\/E:\/git\/TMXSearch\/index.html",
                     {
+                        "creator": "xulihang",
+                        "createdTime": 1687002835008,
                         "id": "tu8"
                     }
                 ],
                 [
-                    "鎵�鏈�",
-                    "",
-                    "鎵�鏈�",
+                    "所有",
+                    "All",
+                    "所有",
                     "\/E:\/git\/TMXSearch\/index.html",
                     {
+                        "creator": "xulihang",
+                        "createdTime": 1687002841290,
                         "id": "tu9"
                     }
                 ],
                 [
-                    "<ex1\/> <ex2\/> <g1>鎼滅储<\/g1><g2\/>",
-                    "",
-                    "<ex1\/> <ex2\/> <g1>鎼滅储<\/g1><g2\/>",
+                    "<ex1\/> <ex2\/> <g1>搜索<\/g1><g2\/>",
+                    "<ex1\/> <ex2\/> <g1>Search<\/g1><g2\/>",
+                    "<ex1\/> <ex2\/> <g1>搜索<\/g1><g2\/>",
                     "\/E:\/git\/TMXSearch\/index.html",
                     {
+                        "creator": "xulihang",
+                        "createdTime": 1687002849320,
                         "id": "tu10"
                     }
                 ],
                 [
-                    "<g1>杩斿洖<\/g1> <g2>鍒犻櫎璇ユ枃浠�<\/g2>",
-                    "",
-                    "<g1>杩斿洖<\/g1> <g2>鍒犻櫎璇ユ枃浠�<\/g2>",
+                    "<g1>返回<\/g1> <g2>删除该文件<\/g2>",
+                    "<g1>Return<\/g1> <g2>Delete this file<\/g2>",
+                    "<g1>返回<\/g1> <g2>删除该文件<\/g2>",
                     "\/E:\/git\/TMXSearch\/index.html",
                     {
+                        "creator": "xulihang",
+                        "createdTime": 1687002867289,
                         "id": "tu11"
                     }
                 ],
                 [
                     "@xulihang 2023",
-                    "",
+                    "@xulihang 2023",
                     "@xulihang 2023",
                     "\/E:\/git\/TMXSearch\/index.html",
                     {
+                        "creator": "xulihang",
+                        "createdTime": 1687002869767,
                         "id": "tu12"
                     }
                 ]
